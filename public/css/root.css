@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Futura Lt BT Light";
+    src: url("../fonts/FuturaLtBTLight.ttf");
+  }
+
+@font-face {
+    font-family: "FuturaLT-Bold";
+    src: url("../fonts/FuturaLT-Bold.otf");
+}
+  
+@font-face {
+    font-family: "FuturaLT";
+    src: url("../fonts/FuturaLT.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/hotsite-03.jpg");
+ 
+    
+}
+
+
+
+.container-root{
+    padding: 100px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.customLabel{
+    font-family: "FuturaLT-Bold";
+}
+
+h1{
+    font-size:8vh;
+    font-family: 'FuturaLT';
+    
+}
+
+select{
+    border-radius: 50px; 
+    border-width: 1px;
+    font-size: 16px; 
+    height: calc(2.25rem + 15px);
+    width: 100%;
+    font: 400 13.3333px Arial;
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
+    
+    
+
+    opacity:0.70;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+
+}
+
+
+
+.form-control{
+    border-radius: 50px; 
+    border-width: 1px;
+    font-size: 16px; 
+    height: calc(2.25rem + 15px); 
+}
+
+.btn-custom {
+    background: rgba(0, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 1); 
+    color: rgba(255, 255, 255, 1); 
+    font-size: 24px; 
+    border-radius: 50px; 
+    border-width: 1px;
+    font-family: 'Futura Lt BT Light';
+}
+
+.btn-custom:hover {
+    background: rgba(0, 0, 0, 1); 
+    border-color: rgba(10, 0, 0, 1); 
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-custom:active, .btn-custom:focus {
+    background: rgba(235, 235, 235, 1); 
+    border-color: rgba(173, 173, 173, 1);
+    color: rgba(252, 252, 252, 1);
+}
+
+#img1{
+    position: relative;
+    right: -400px;
+    padding: 10px;
+    
+    
+}
+
+#img2{
+    position: relative;
+    right: -34px;
+    top: 350px;
+    padding: 10px;
+    
+    
+    
+}
+
+#div1{
+    
+    
+    height: 100%;
+    
+}
+
+.pMargin{
+    margin-bottom: 0rem;
+}
+@media only screen and (max-width: 777px) {
+    .mobileImg{
+        width: 100%;
+    }
+    #img1{
+       
+        right: unset;
+        padding: unset;  
+        float: left;
+        
+        margin: 0px;
+
+    }
+    #img2{
+       
+        right: unset;
+        top: unset;
+        padding: unset;
+        float: left;
+        width: 100%;
+        margin: 20px;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    h1{
+        font-size: 5vh;
+    }
+
+    .btn-custom{
+        width: 100%;
+    }
+
+    .container-root{
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    h1{
+        font-size: 4.5vh;
+    }
+
+    .btn-custom{
+        width: 100%;
+    }
+
+    .container-root{
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+    .container-fluid{
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .adjust{
+        align-content: center;
+        text-align: center;
+        padding-left: 50px !important;
+    }
+
+    .customLabel{
+        font-size: 2vh;
+    }
+
+    .textCenter{
+        text-align: center;
+    }
+
+}
